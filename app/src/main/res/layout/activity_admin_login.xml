@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <!-- Titre de la page de connexion Administrateur -->
+    <TextView
+        android:id="@+id/adminLoginTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connexion Administrateur"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"/>
+
+    <!-- Champ pour saisir l'email -->
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Administrateur"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Champ pour saisir l'email de l'administrateur" />
+
+
+    <!-- Champ pour saisir le mot de passe -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Champ pour saisir le mot de passe de l'administrateur" />
+
+    <!-- Bouton pour se connecter -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Se connecter"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="16dp" />
+</LinearLayout>

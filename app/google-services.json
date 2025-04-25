@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "678817105966",
+    "project_id": "essat-connect-dab9c",
+    "storage_bucket": "essat-connect-dab9c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678817105966:android:994f9e4a24d3bdfb9f37bf",
+        "android_client_info": {
+          "package_name": "com.example.essatconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHEBjDNZ_QXc354XFT0ofiJagD4g86Di4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

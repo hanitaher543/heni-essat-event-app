@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/registerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inscription Étudiant"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Titre de la page d'inscription" />
+
+    <EditText
+        android:id="@+id/cinEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CIN"
+        android:inputType="number"
+        android:maxLength="8"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Champ CIN" />
+
+    <EditText
+        android:id="@+id/fullnameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom Complet"
+        android:inputType="text|textCapWords"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Champ Nom Complet" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Champ Email" />
+
+    <EditText
+        android:id="@+id/classEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Classe"
+        android:inputType="text|textCapWords"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Champ Classe" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mot de Passe"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Champ Mot de Passe" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="S'inscrire"
+        android:textColor="@android:color/white"
+        android:background="#FF6200EE"
+        android:padding="16dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Bouton d'inscription" />
+
+    <TextView
+        android:id="@+id/loginRedirectText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Déjà inscrit ? Connectez-vous"
+        android:textColor="#FF6200EE"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Lien vers l'écran de connexion" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <!-- Nom complet -->
+    <TextView
+        android:id="@+id/studentFullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom complet :"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Email -->
+    <TextView
+        android:id="@+id/studentEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email :"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Classe -->
+    <TextView
+        android:id="@+id/studentClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Classe :"
+        android:layout_marginBottom="4dp" />
+
+    <!-- CIN -->
+    <TextView
+        android:id="@+id/studentCin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CIN :" />
+</LinearLayout>

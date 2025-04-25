@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Titre de l'actualité -->
+    <EditText
+        android:id="@+id/newsTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom de l'actualité"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:background="@android:color/white" />
+
+    <!-- Description de l'actualité -->
+    <EditText
+        android:id="@+id/newsDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description de l'actualité"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:background="@android:color/white" />
+
+    <!-- Bouton pour ajouter une actualité -->
+    <Button
+        android:id="@+id/addNewsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter l'actualité"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:padding="12dp" />
+
+</LinearLayout>

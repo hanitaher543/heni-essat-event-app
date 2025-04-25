@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@android:color/white"
+    android:gravity="center">
+
+    <!-- Titre de l'écran -->
+    <TextView
+        android:id="@+id/dashboardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tableau de bord Administrateur"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"/>
+
+    <!-- Bouton pour gérer les étudiants -->
+    <Button
+        android:id="@+id/manageStudentsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liste des étudiants"
+        android:textColor="@android:color/white"
+        android:background="#FF6200EE"
+        android:layout_marginBottom="20dp"
+        android:padding="16dp"/>
+
+    <!-- Bouton pour gérer les actualités -->
+    <Button
+        android:id="@+id/manageNewsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gérer les Actualités"
+        android:textColor="@android:color/white"
+        android:background="#FF6200EE"
+        android:layout_marginBottom="20dp"
+        android:padding="16dp"/>
+
+    <!-- Bouton pour gérer les événements -->
+    <Button
+        android:id="@+id/manageEventsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gérer les Événements"
+        android:textColor="@android:color/white"
+        android:background="#FF6200EE"
+        android:layout_marginBottom="20dp"
+        android:padding="16dp"/>
+
+    <!-- Bouton de déconnexion (redirection vers MainActivity) -->
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Se déconnecter"
+        android:textColor="@android:color/white"
+        android:background="#FF6200EE"
+        android:layout_marginTop="40dp"
+        android:padding="16dp"/>
+</LinearLayout>

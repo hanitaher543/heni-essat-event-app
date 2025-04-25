@@ -1,0 +1,70 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <!-- Titre du tableau de bord -->
+    <TextView
+        android:id="@+id/dashboardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenue dans le Tableau de Bord"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <!-- Affichage du CIN de l'étudiant -->
+    <TextView
+        android:id="@+id/studentFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CIN de l'étudiant connecté :"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:textStyle="italic" />
+
+    <!-- Bouton pour consulter les actualités -->
+    <Button
+        android:id="@+id/viewNewsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consulter les Actualités"
+        android:textColor="@android:color/white"
+        android:background="#FF6200EE"
+        android:layout_marginBottom="20dp"
+        android:padding="16dp"
+        android:layout_gravity="center" />
+
+    <!-- Bouton pour consulter les événements -->
+    <Button
+        android:id="@+id/viewEventsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consulter les Événements"
+        android:textColor="@android:color/white"
+        android:background="#FF6200EE"
+        android:layout_marginBottom="20dp"
+        android:padding="16dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Se déconnecter"
+        android:textColor="@android:color/white"
+        android:background="#FF0000"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>
